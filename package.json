@@ -10,7 +10,11 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-moment": "^0.9.7",
-    "react-scripts": "3.4.3"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-toastify": "^6.0.8",
+    "react-uuid": "^1.0.2",
+    "react-virtualized": "^9.22.2"
   },
   "scripts": {
     "start": "react-scripts start",
