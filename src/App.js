@@ -1,25 +1,18 @@
 import React from 'react';
 import logo from './catt.jpg';
 import './App.css';
-import Moment from 'moment';
-
-
-
-
+import Saludar from './components/Saludar';
 
 function App() {
-    return ( <
-        div className = "App">
+    return ( 
+        <div className = "App">
         <header className = "App-header">
         <img src = { logo } className = "App-logo"
         alt = "logo"/>
-        <p> Edit <code> src / App.js </code> and save to reload. #NyanCatTeam.</p> <
-        a className = "App-link"
-        href = "https://reactjs.org"
-        target = "_blank"
-        rel = "noopener noreferrer" >
-        Learn React </a> 
-        <p> Esto es un parrafo </p>
+
+        <Saludar name="Abraham padre de Isaac" edad="60" />
+        <Saludar name="Charly el guapo" edad="veintisiempre" />
+        <Saludar name="Batman" edad="34" />
         </header> 
         </div>
     );
